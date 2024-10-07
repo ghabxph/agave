@@ -390,7 +390,7 @@ solana-zk-token-sdk = { path = "zk-token-sdk", version = "=1.18.8" }
 solana_rbpf = { git = "https://github.com/solana-labs/rbpf.git", rev = "b503a1867a9cfa13f93b4d99679a17fe219831de" }
 spl-associated-token-account = "=2.3.0"
 spl-instruction-padding = "0.1"
-spl-memo = "=4.0.3"
+spl-memo = "=4.0.4"
 spl-pod = "=0.1.0"
 spl-token = "=4.0.3"
 spl-token-2022 = "=1.0.0"
