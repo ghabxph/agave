@@ -7,7 +7,7 @@ use {
     },
     inflector::Inflector,
     serde_json::Value,
-    solana_sdk::{
+    solana_program::{
         address_lookup_table, instruction::InstructionError, pubkey::Pubkey, stake, system_program,
         sysvar, vote,
     },
@@ -17,7 +17,7 @@ use {
 
 lazy_static! {
     static ref ADDRESS_LOOKUP_PROGRAM_ID: Pubkey = address_lookup_table::program::id();
-    static ref BPF_UPGRADEABLE_LOADER_PROGRAM_ID: Pubkey = solana_sdk::bpf_loader_upgradeable::id();
+    static ref BPF_UPGRADEABLE_LOADER_PROGRAM_ID: Pubkey = solana_program::bpf_loader_upgradeable::id();
     static ref CONFIG_PROGRAM_ID: Pubkey = solana_config_program::id();
     static ref STAKE_PROGRAM_ID: Pubkey = stake::program::id();
     static ref SYSTEM_PROGRAM_ID: Pubkey = system_program::id();

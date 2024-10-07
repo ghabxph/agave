@@ -5442,6 +5442,7 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "solana-config-program",
+ "solana-program",
  "solana-sdk",
  "spl-pod",
  "spl-token",
